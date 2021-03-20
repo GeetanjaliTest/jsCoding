@@ -141,6 +141,7 @@ function draw() {
           pinkCG.destroyEach();
           yellowCG.destroyEach();
           redCG.destroyEach();
+          obstaclesGroup.destroyEach(); 
       }
     
 }else if (gameState === END) {
